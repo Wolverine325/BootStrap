@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+   <div class="container-fluid">
+
+<!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5" href="#">DC</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- landing section -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="https://images.static-bluray.com/reviews/16188_5.jpg" class="d-block w-100" alt="img">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Harry Potter</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="https://c4.wallpaperflare.com/wallpaper/95/92/857/harry-potter-hermione-granger-emma-watson-hd-wallpaper-preview.jpg" class="d-block w-100" alt="img">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Hermione Granger</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="https://wallpapers.com/images/featured/ron-weasley-hjh90o04dtechx6r.jpg" class="d-block w-100" alt="img">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Ron</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Card -->
+      <div class="d-flex justify-content-evenly p-5 mt-5">
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.britannica.com/82/152982-050-11159CF4/Daniel-Radcliffe-Rupert-Grint-Emma-Watson-Harry.jpg" class="card-img-top" alt="img">
+            <div class="card-body">
+              <h5 class="card-title">Hogwarts</h5>
+              <p class="card-text">Avada Kedavara : Curse of curses</p>
+              <a href="#" class="btn btn-primary">Curse</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.britannica.com/82/152982-050-11159CF4/Daniel-Radcliffe-Rupert-Grint-Emma-Watson-Harry.jpg" class="card-img-top" alt="img">
+            <div class="card-body">
+              <h5 class="card-title">Hogwarts</h5>
+              <p class="card-text">Avada Kedavara : Curse of curses</p>
+              <a href="#" class="btn btn-primary">Curse</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.britannica.com/82/152982-050-11159CF4/Daniel-Radcliffe-Rupert-Grint-Emma-Watson-Harry.jpg" class="card-img-top" alt="img">
+            <div class="card-body">
+              <h5 class="card-title">Hogwarts</h5>
+              <p class="card-text">Avada Kedavara : Curse of curses</p>
+              <a href="#" class="btn btn-primary">Curse</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem;">
+            <img src="https://cdn.britannica.com/82/152982-050-11159CF4/Daniel-Radcliffe-Rupert-Grint-Emma-Watson-Harry.jpg" class="card-img-top" alt="img">
+            <div class="card-body">
+              <h5 class="card-title">Hogwarts</h5>
+              <p class="card-text">Avada Kedavara : Curse of curses</p>
+              <a href="#" class="btn btn-primary">Curse</a>
+            </div>
+          </div>
+      </div>
+
+      
+
+      <!-- grid -->
+        <div class="row">
+            <div class="col-lg-6 p-5">
+                <h1>Batman</h1>
+                    <img class="img-fluid" src="https://wallpaper.forfun.com/fetch/7e/7ebb58e2d935a37654b08df75e6ff4b8.jpeg" alt="img">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur perferendis soluta minima, dicta beatae nostrum vero repudiandae! Eum qui, itaque error rem reprehenderit, eaque corporis nulla id commodi, iusto vitae.</p>
+            </div>
+            <div class="col-lg-6 p-5">
+              <h1>Iron-Man</h1>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam ad, magni laudantium sunt excepturi quas cum. Vero repudiandae nisi, adipisci, dolores debitis, cupiditate reprehenderit omnis necessitatibus ipsam ducimus obcaecati doloribus.</p>
+              <hr>
+              <div class="row p-3">
+                <div class="col-md-6">
+                    <h3 class="mt-sm-5 mt-lg-0">Spiderman</h3>
+                    <img class="img-fluid" src="https://pixelz.cc/wp-content/uploads/2017/11/spider-man-uhd-4k-wallpaper.jpg" alt="img">
+                   <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero officia reprehenderit repudiandae sit aut facere accusamus deleniti veniam rerum eum voluptate, voluptatem assumenda est? Obcaecati est suscipit quam optio accusantium.</p>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid" src="https://free-3dtextureshd.com/wp-content/uploads/2024/07/96.jpg.webp" alt="img">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quia est earum sapiente, voluptate unde dignissimos nisi possimus rem similique vero corrupti facere dolores corporis minima laborum magni quis illo.</p>
+                    <h3>Superman</h3>
+                </div>
+    
+              </div>
+    
+                
+    
+              </div>
+              
+              </div>
+            </div>
+        </div>
+   </div>
+</body>
+<!-- bootstrap js link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>
